@@ -25,6 +25,9 @@
         "tomasvotruba/type-coverage": "^0.0.9",
         "tomasvotruba/cognitive-complexity": "^0.0.5"
     },
+     "conflict": {
+        "rector/rector-phpunit": "*"
+     },
     "autoload": {
         "psr-4": {
             "Rector\\Pest\\": "src"
